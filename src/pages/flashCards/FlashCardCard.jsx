@@ -9,6 +9,7 @@ const FlashCardCard = ({ front, back }) => {
     <div
       className={`flashcard-card ${flipped ? "is-flipped" : ""}`}
       onClick={() => setFlipped(prev => !prev)}
+      data-testid="flashcards-card"
     >
       <div className="flashcard-inner">
         <div className="flashcard-face flashcard-front">

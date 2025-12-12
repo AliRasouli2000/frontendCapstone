@@ -185,7 +185,7 @@ export const LoginSignUp = () => {
                 <input 
                   id="username"
                   type="text" 
-                  placeholder="Userame"
+                  placeholder="Username"
                   name="username"
                   autoComplete="off"
                   value={formValues.username}
